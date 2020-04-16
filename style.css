@@ -28,6 +28,25 @@
     row-gap:16px;
 }
 
+@media screen and (min-width:1280px)and (max-width:1024px){
+    .photo__container{
+    
+        list-style: none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:82px;
+        padding:0;
+    
+    
+        display:grid;
+        width:100%;
+        max-width: 928px;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 14px;
+        row-gap:14px;
+    }   
+}
+
 .photo__img{
     padding: 0;
     margin:0;
