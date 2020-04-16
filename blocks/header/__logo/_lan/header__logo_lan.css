@@ -15,3 +15,9 @@
     text-decoration-line: underline;
 }
 
+
+@media screen and (max-width:425px) {
+    .header__logo_lan{
+        font-size:18px;
+    }
+}
