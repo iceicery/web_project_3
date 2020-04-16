@@ -1,5 +1,5 @@
 .header__title{
-    width: 782px;
+    max-width: 782px;
     
     font-family: Inter;
     font-style: normal;
@@ -7,6 +7,9 @@
     font-size: 96px;
     line-height: 93px;
     text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+    padding:0;
 
     color: #FFFFFF;
 }

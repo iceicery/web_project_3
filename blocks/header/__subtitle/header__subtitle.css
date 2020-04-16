@@ -2,8 +2,8 @@
     margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
-    width: 583px;
-    height: 65px;
+    max-width: 583px;
+    
 
     font-family: Inter;
     font-style: normal;
