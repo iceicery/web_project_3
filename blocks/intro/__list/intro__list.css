@@ -1,0 +1,17 @@
+.intro__list{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: calc(20/13);
+
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width:425px){
+    .intro__list{
+    font-size: 12px;
+    line-height:155.5%;
+    }
+}
