@@ -11,8 +11,28 @@
   text-rendering: optimizeLegibility;
 }
 
+.photo__container{
+    
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:82px;
+    padding:0;
 
 
+    display:grid;
+    width:100%;
+    max-width: 1184px;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 16px;
+    row-gap:16px;
+}
+
+.photo__img{
+    padding: 0;
+    margin:0;
+    width:100%;
+}
 
 
 
