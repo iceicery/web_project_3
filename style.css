@@ -12,7 +12,6 @@
 }
 
 .places__container{
-    border: solid;
     max-width:986px;
     width:90%;
     margin-left: auto;
@@ -29,7 +28,6 @@
 }
 
 .places__box{
-    border:solid;
     min-height:661px;
     width:100%;
     height:100%;
