@@ -1,5 +1,6 @@
 .header__title{
     max-width: 782px;
+    width:90%
     
     font-family: Inter;
     font-style: normal;
@@ -19,8 +20,4 @@
         font-size:40px;
         line-height: 1;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> feature/intro
