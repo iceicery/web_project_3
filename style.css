@@ -28,7 +28,7 @@
     row-gap:16px;
 }
 
-@media screen and (min-width:1280px)and (max-width:768px){
+@media screen and (min-width:1280pxand max-width:768px){
     .photo__container{
     
         list-style: none;
@@ -47,7 +47,7 @@
     }   
 }
 
-@media screen and (min-width:768) and (max-width:425){
+@media screen and (min-width:768 and max-width:425){
     .photo__container{
     
         list-style: none;
