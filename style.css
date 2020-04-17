@@ -47,7 +47,7 @@
     }   
 }
 
-@media screen and (min-width:768px) and (max-width:425px){
+@media screen and (min-width:767px) and (max-width:425px){
     .photo__container{
     
         list-style: none;
@@ -67,7 +67,7 @@
         
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:424px){
     .photo__container{
     
         list-style: none;
