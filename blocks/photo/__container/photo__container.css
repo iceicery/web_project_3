@@ -57,15 +57,6 @@
 @media screen and (max-width:424px){
     .photo__container{
     
-        list-style: none;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top:82px;
-        padding:0;
-    
-    
-        display:grid;
-        width:100%;
         max-width: 928px;
         grid-template-columns: repeat(1,1fr);
         row-gap:8px;
