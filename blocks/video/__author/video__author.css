@@ -1,0 +1,20 @@
+.video__author{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height:1.1;
+  
+    padding:0;
+  
+    margin-bottom: 30px;
+  
+    color: #FFFFFF;
+  
+    padding:0;
+  }
+  @media screen and (max-width:425px){
+    .video__author{
+      margin-bottom:24px;
+    }
+  }

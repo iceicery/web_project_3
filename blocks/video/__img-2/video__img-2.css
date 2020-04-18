@@ -1,0 +1,6 @@
+.video__img-2{
+    width:100%;
+    background-image: url('../../../images/video-wyoming.jpg');
+    background-size:cover;
+    background-position: center;
+}

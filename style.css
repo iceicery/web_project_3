@@ -2,6 +2,7 @@
 @import url(./blocks/intro/intro.css);
 @import url(./blocks/photo/photo.css);
 @import url(./blocks/places/places.css);
+@import url(./blocks/video/video.css);
 
 .page{
     background-color: #2A2C2F;
@@ -13,12 +14,7 @@
   text-rendering: optimizeLegibility;
 }
 
-.video__container{
-  margin-left: auto;
-  margin-right:auto;
-  max-width: 1184px;
-  width:90%;
-}
+
 
 .content__title{
   max-width: 640px;
@@ -77,134 +73,22 @@
   }
 }
 
-.video__box{
-  padding:0;
-  list-style: none;
-  margin-top:74px;
-
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  column-gap: 18px;
-}
-@media screen and (max-width:425px){
-  .video__box{
-    margin-top:25px;
-    font-size: 16px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap:8px;
-  }
-}
 
 
 
-.video__item{
-  padding:0;
-  margin:0;
-  width:100%;
-  display:grid;
-  grid-template-rows: 1fr 1.1fr;
-}
-
-.video__img-1{
-  width:100%;
-  background-image:url(./images/video-iowa.jpg);
-  background-size:cover;
-  background-position: center;
-}
-
-.video__img-2{
-  width:100%;
-  background-image: url(./images/video-wyoming.jpg);
-  background-size:cover;
-  background-position: center;
-}
-
-.video__icon{
-  margin-top:30px;
-  margin-left:30px;
-  width:30px;
-  height: 30px;
-}
-
-@media screen and (max-width:425px){
-  .video__icon{
-    margin-top:24px;
-    margin-left:24px;
-  }
-}
-
-.video__text-box{
-  margin-left:30px;
-}
-
-@media screen and (max-width:425px){
-  .video__text-box{
-    margin-left:24px;
-  }
-}
 
 
-.video__duration{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 13px;
-  letter-spacing: 0.3em;
 
-  padding:0;
-  margin-top: 0;
-  margin-bottom: 12px;
-  color: #FFFFFF;
 
-}
 
-.video__title{
-  width:60%;
-  height:73px;
 
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height:1.1;
- 
-  color: #FFFFFF;
 
-  padding:0;
-  margin-top: 0;
-  margin-bottom: 18px;
-}
 
-@media screen and (max-width:425px){
-  .video__title{
-    font-size:24px;
-    margin-bottom: 2px;
-    
-  }
-}
 
-.video__author{
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height:1.1;
 
-  padding:0;
 
-  margin-bottom: 30px;
 
-  color: #FFFFFF;
 
-  padding:0;
-}
-@media screen and (max-width:425px){
-  .video__author{
-    margin-bottom:24px;
-  }
-}
 
 
 

@@ -1,0 +1,6 @@
+.video__img-1{
+    width:100%;
+    background-image:url('../../../images/video-iowa.jpg');
+    background-size:cover;
+    background-position: center;
+  }
