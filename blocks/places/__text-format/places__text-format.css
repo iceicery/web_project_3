@@ -12,3 +12,7 @@
     color: #FFFFFF;
 
 }
+
+.places__text-format:last-child{
+    margin-bottom:0;
+}

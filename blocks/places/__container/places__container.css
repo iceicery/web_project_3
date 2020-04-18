@@ -1,9 +1,11 @@
 .places__container{
+       
     max-width:986px;
     width:90%;
     margin-left: auto;
     margin-right: auto;
     margin-top:72px;
+    margin-bottom: 0;
 
     display: grid;
     grid-template-columns: 1fr;
