@@ -5,16 +5,17 @@
     margin-right: auto;
 }
 
-@media screen and (max-width:1024px)and (min-width:769px){
+@media screen and (max-width:1024px) and (min-width:769px){
     .header__lead{
-        width:928px;
+        max-width:928px;
+        width:100%;
         padding-top:50px;
         margin-right: auto;
         margin-left: auto;
     }
     
 }
-@media screen and (max-width:768px)and (min-width:426px){
+@media screen and (max-width:768px) and (min-width:426px){
     .header__lead{
         padding-top:50px;
         margin-left: auto;
