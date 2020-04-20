@@ -1,7 +1,27 @@
 .intro__container{
-    max-width: 985px;
-    width:90%;
+    width: 690px;
     margin-top: 64px;
-    margin-left: auto;
-    margin-right:auto;
+    margin-left: 148px;
+}
+
+@media screen and (max-width:1024px)and (min-width:769px){
+    .intro__container{
+    margin-left: 48px;
+    }
+    
+}
+@media screen and (max-width:768px)and (min-width:426px){
+    .intro__container{
+        width: 720px;
+        margin-left: 24px;
+    }
+
+    
+}
+@media screen and (max-width:425px){
+    .intro__container{
+        width: 288px;
+        margin-left: 16px;
+    }
+    
 }
