@@ -10,7 +10,7 @@ Up to 425px (mobile devices).
 @media screen and (max-width:1280px)and (min-width:1025px){
     
 }
-@media screen and (max-width:1024)and (min-width:769){
+@media screen and (max-width:1024px)and (min-width:769px){
     
 }
 @media screen and (max-width:768px)and (min-width:426px){

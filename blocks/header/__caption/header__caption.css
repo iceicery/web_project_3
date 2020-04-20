@@ -1,12 +1,20 @@
 .header__caption{
+    width:183px;
     margin-top:11px;
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
-    line-height: 12px;
+    line-height:1.2;
     letter-spacing: 0.15em;
     text-transform: uppercase;
 
     color: #FFFFFF;
 }
+
+@media screen and (max-width:768px){
+    .header__caption{
+        margin-left:24px;
+    }
+}
+
