@@ -4,18 +4,20 @@ From 768px to 1024px (from a tablet in portrait to a tablet in landscape).
 From 425px to 768px (from a large smartphone to a tablet in portrait).
 Up to 425px (mobile devices).
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1281px){
 }
 
-@media screen and (max-width:1280px)and (min-width:1024px){
+@media screen and (max-width:1280px)and (min-width:1025px){
     
 }
-@media screen and (max-width:1023)and (min-width:768){
+@media screen and (max-width:1024)and (min-width:769){
     
 }
-@media screen and (max-width:767px)and (min-width:425px){
+@media screen and (max-width:768px)and (min-width:426px){
     
 }
-@media screen and (max-width:424px){
+@media screen and (max-width:425px){
     
 }
+
+
