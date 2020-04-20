@@ -5,7 +5,7 @@
     margin-right: auto;
 }
 
-@media screen and (max-width:1024)and (min-width:769){
+@media screen and (max-width:1024px)and (min-width:769px){
     .header__lead{
         width:928px;
         padding-top:50px;
