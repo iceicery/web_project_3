@@ -2,12 +2,37 @@
 @import url(./_pic/header__logo_pic.css);
 
 .header__logo{
+    /*max-width set for the bigger screen, the figma file shows the rule but not in the brief*/
     max-width: 1184px;
-    width: 90%;
-    height: 46px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 33.79px;
+    
+    padding-top:34px;
+    padding-left:148px;
+    padding-right: 148px;
     display:flex;
     justify-content:space-between;
+}
+
+@media screen and (max-width:1024)and (min-width:769){
+    .header__logo{
+        padding-top:34px;
+        padding-left:48px;
+        padding-right:48px;
+    }
+    
+}
+@media screen and (max-width:768px)and (min-width:426px){
+    .header__logo{
+        padding-top:34px;
+        padding-left:24px;
+        padding-right:24px;
+    }
+    
+}
+@media screen and (max-width:425px){
+    .header__logo{
+        padding-top:20px;
+        padding-left:16px;
+        padding-right:16px;
+    }
+    
 }
