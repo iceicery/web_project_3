@@ -1,16 +1,24 @@
 .video__box{
     padding:0;
     list-style: none;
-    margin-top:74px;
+    margin-top:72px;
   
     display:grid;
     grid-template-columns:1fr 1fr;
     column-gap: 18px;
   }
+
+  @media screen and (max-width:1024px)and (min-width:426px){
+    .video__box{
+      column-gap: 16px;
+    }   
+  }
+   
+  
+
   @media screen and (max-width:425px){
     .video__box{
       margin-top:25px;
-      font-size: 16px;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
       row-gap:8px;
