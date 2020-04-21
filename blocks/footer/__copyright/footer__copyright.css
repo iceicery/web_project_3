@@ -12,4 +12,9 @@
     color: #FFFFFF;
   }
   
-  
+  @media screen and (max-width:425px){
+    .footer__copyright{
+      margin-top:32px;
+      text-align: left;
+    }
+  }

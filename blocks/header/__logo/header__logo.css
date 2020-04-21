@@ -2,7 +2,8 @@
 @import url(./_pic/header__logo_pic.css);
 
 .header__logo{
-    width: 984px;
+    max-width: 1184px;
+    width:90%;
     margin-top:34px;
     margin-left:auto;
     margin-right:auto;
@@ -13,7 +14,7 @@
 
 @media screen and (max-width:1024px)and (min-width:769px){
     .header__logo{
-        width: 928px;
+        max-width: 928px;
         margin-top:34px;
         margin-left:auto;
         margin-right:auto;
@@ -22,7 +23,7 @@
 }
 @media screen and (max-width:768px)and (min-width:426px){
     .header__logo{
-        width: 720px;
+        max-width: 720px;
         margin-top:34px;
         margin-left:auto;
         margin-right:auto;
@@ -31,7 +32,7 @@
 }
 @media screen and (max-width:425px){
     .header__logo{
-        width:288px;
+        -webkit-mask-repeat-x:288px;
         margin-top:20px;
         margin-left:auto;
         margin-right:auto;
