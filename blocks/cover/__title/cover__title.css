@@ -1,8 +1,7 @@
 .cover__title{
-    border:solid;
     width:90%;
     position: absolute;
-    top:50%;
+    top:40%;
     left:50%;
     transform: translate(-50%, -50%);
   
@@ -23,6 +22,7 @@
   
   @media screen and (max-width:425px){
     .cover__title{
+      top:40px;
       font-size: 32px;
       line-height: 35px;
     }

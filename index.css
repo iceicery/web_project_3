@@ -1,5 +1,6 @@
 @import url(./blocks/vender/normalize.css);
 @import url(./blocks/vender/font/font.css);
+@import url(./blocks/page/page.css);
 @import url(./blocks/header/header.css);
 @import url(./blocks/intro/intro.css);
 @import url(./blocks/photo/photo.css);
@@ -9,17 +10,6 @@
 @import url(./blocks/comments/comments.css);
 @import url(./blocks/cover/cover.css);
 @import url(./blocks/footer/footer.css);
-
-
-.page{
-  background-color: #2A2C2F;
-  -webkit-font-smoothing: antialiased;
- /* -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -moz-osx-font-smoothing: grayscale;*/
-  text-rendering: optimizeLegibility;
-}
 
 
 

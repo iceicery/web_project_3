@@ -1,6 +1,7 @@
 .cover__img{
     width:100%;
-    background-size: contain;
+    min-height:216px;
+    object-fit: cover;
   }
 
-  
+   
