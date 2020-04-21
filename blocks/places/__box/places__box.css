@@ -12,9 +12,10 @@
 
 @media screen and (max-width:425px){
     .places__box{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
+        display:grid;
+        grid-template-columns:1fr;
+        grid-template-rows: 35fr 320fr auto;
+        row-gap: 32px;
     }
     
 }
