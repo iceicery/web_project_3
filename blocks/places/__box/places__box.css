@@ -1,11 +1,20 @@
 .places__box{
-    border:solid;
     min-height:661px;
     width:100%;
     height:100%;
     display: grid;
     grid-template-columns: 460fr 484fr;
     grid-template-rows: 1fr 3.5fr;
+    row-gap: 48px;
     margin-bottom: 2rem;
     padding:0;
+}
+
+@media screen and (max-width:425px){
+    .places__box{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
 }

@@ -1,5 +1,19 @@
 .places__link{
     grid-row:1;
     grid-column:2/3; 
+    align-self: end;
 }
 
+@media screen and (max-width:768px)and (min-width:426px){
+    .places__link{
+        align-self: flex-start;
+    }
+    
+}
+
+@media screen and (max-width:425px){
+    .places__link{
+        display: none;
+    }
+
+}
