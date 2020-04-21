@@ -14,7 +14,7 @@
     .places__box{
         display:grid;
         grid-template-columns:1fr;
-        grid-template-rows: 35fr 320fr 400fr;
+        grid-template-rows: 1fr 3.5fr 7fr;
         row-gap: 32px;
     }
     

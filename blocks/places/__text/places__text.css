@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width:425px){
-    .places__img{
+    .places__text{
         grid-row:3/4;
         grid-column:1;
     }
