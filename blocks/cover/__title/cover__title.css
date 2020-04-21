@@ -1,4 +1,6 @@
 .cover__title{
+    border:solid;
+    width:90%;
     position: absolute;
     top:50%;
     left:50%;
