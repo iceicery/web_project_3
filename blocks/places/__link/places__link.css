@@ -4,13 +4,6 @@
     align-self: end;
 }
 
-@media screen and (max-width:768px)and (min-width:426px){
-    .places__link{
-        align-self: flex-start;
-    }
-    
-}
-
 @media screen and (max-width:425px){
     .places__link{
         display: none;

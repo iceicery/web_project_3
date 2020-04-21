@@ -4,3 +4,14 @@
     column-gap:18px;
     margin-top:70px;
   }
+
+  @media screen and (max-width:768px){
+    .comments__box{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3,1fr);
+      row-gap: 45px;
+
+    }
+    
+  }
+  
