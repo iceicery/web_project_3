@@ -1,5 +1,5 @@
-.header__title{
-    width:720px;
+.lead__title{
+    max-width:720px;
     
     font-family: Inter;
     font-style: normal;
@@ -16,8 +16,8 @@
 
 
 @media screen and (max-width:425px){
-    .header__title{
-        width: 288px;
+    .lead__title{
+        max-width: 288px;
         font-size: 40px;
         line-height: 1.1;
         

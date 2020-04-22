@@ -1,4 +1,9 @@
-.header__lead{  
+@import url(./__caption/lead__caption.css);
+@import url(./__pic/lead__pic.css);
+@import url(./__subtitle/lead__subtitle.css);
+@import url(./__title/lead__title.css);
+
+.lead{  
     max-width: 984px;
     width:90%;
     padding-top:34px;
@@ -7,7 +12,7 @@
 }
 
 @media screen and (max-width:1024px) and (min-width:769px){
-    .header__lead{
+    .lead{
         max-width:964px;
         width:100%;
         padding-top:50px;
@@ -17,7 +22,7 @@
     
 }
 @media screen and (max-width:768px) and (min-width:426px){
-    .header__lead{
+    .lead{
         padding-top:50px;
         margin-left: auto;
         margin-right: auto;
@@ -27,7 +32,7 @@
     
 }
 @media screen and (max-width:425px){
-    .header__lead{
+    .lead{
         width:100%;
         margin-left: auto;
         margin-right: auto;

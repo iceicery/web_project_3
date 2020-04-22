@@ -1,7 +1,20 @@
-@import url(./__title/header__title.css);
-@import url(./__subtitle/header__subtitle.css);
-@import url(./__pic/header__pic.css);
-@import url(./__logo/header__logo.css);
-@import url(./__lead/header__lead.css);
-@import url(./__caption/header__caption.css);
 
+@import url(./__logo/header__logo.css);
+@import url(./__logo-img/header__logo-img.css);
+@import url(./__lang-link/header__lang-link.css);
+
+
+@import url(./__lang-link/_active/header__lang-link_active.css);
+
+/*
+  I tried to use the method provided by the mentor but it didn't work.
+  So I linked _active here. 
+  
+  " Increase selector specificity for resolving issues with applying modifiers using @import.
+    Use block__element.block__element_mod instead of just .block__element_mod.
+
+    Please note that it is a hack that violates BEM principles, 
+    so you should avoid it in regular development.
+    But this is the only way to fix it."
+  
+  */

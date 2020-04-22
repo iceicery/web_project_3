@@ -1,4 +1,7 @@
-.header__logo_lan{
+@import url(./_active/header__lang-link_active.css);
+
+
+.header__lang-link{
     padding:0;
     margin-left:1em;
     font-family: Inter;
@@ -11,13 +14,9 @@
 
     color: #FFFFFF;
 }
-.header__logo_lan:hover{
-    text-decoration-line: underline;
-}
-
 
 @media screen and (max-width:425px) {
-    .header__logo_lan{
+    .header__lang-link{
         font-size:18px;
     }
 }

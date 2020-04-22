@@ -1,6 +1,3 @@
-@import url(./_lan/header__logo_lan.css);
-@import url(./_pic/header__logo_pic.css);
-
 .header__logo{
     max-width: 1184px;
     width:90%;

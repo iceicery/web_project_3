@@ -1,8 +1,8 @@
-.header__subtitle{
+.lead__subtitle{
     margin-top: 48px;
     margin-right: auto;
     margin-left: auto;
-    width:620px;
+    max-width:620px;
     
 
     font-family: Inter;
@@ -16,8 +16,8 @@
 }
 
 @media screen and (max-width:425px){
-    .header__subtitle{
-        width:288px;
+    .lead__subtitle{
+        max-width:288px;
         font-size:16px;
         line-height: 1.25;
     }
