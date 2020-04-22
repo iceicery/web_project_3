@@ -1,11 +1,9 @@
-.content__subtitle{
-
+.section-subtitle{
     max-width: 640px;
     width:85%;
     margin-left: auto;
     margin-right:auto;
   
-    font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -19,7 +17,7 @@
   }
   
   @media screen and (max-width:425px){
-    .content__subtitle{
+    .section-subtitle{
       font-size: 16px;
     }
   }
