@@ -1,0 +1,15 @@
+.intro__item_wide{
+    max-width:750px;
+}
+
+@media screen and (min-width:1025px){
+    .intro__item_wide{
+        max-width:683px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:426px){
+    .intro__item_wide{
+        max-width:720px;
+    }
+}
