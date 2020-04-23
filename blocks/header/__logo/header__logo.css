@@ -1,7 +1,7 @@
 .header__logo{
     max-width: 1184px;
     width:90%;
-    padding-top:34px;
+    padding-top:36px;
     margin-left:auto;
     margin-right:auto;
     display:flex;
@@ -12,7 +12,7 @@
 @media screen and (max-width:1024px)and (min-width:769px){
     .header__logo{
         max-width: 928px;
-        padding-top:34px;
+        padding-top:36px;
         margin-left:auto;
         margin-right:auto;
     }
@@ -21,7 +21,7 @@
 @media screen and (max-width:768px)and (min-width:426px){
     .header__logo{
         max-width: 720px;
-        padding-top:34px;
+        padding-top:35.79px;
         margin-left:auto;
         margin-right:auto;
     }
@@ -29,10 +29,6 @@
 }
 @media screen and (max-width:425px){
     .header__logo{
-        max-width:288px;
         padding-top:20px;
-        margin-left:auto;
-        margin-right:auto;
     }
-    
 }

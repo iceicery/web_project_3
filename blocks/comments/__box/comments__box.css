@@ -1,17 +1,34 @@
 .comments__box{
+    list-style: none;
+    /*
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap:18px;
+    grid-template-columns: repeat(3,1fr);*/
+    display:flex;
+    justify-content: space-between;
     margin-top:70px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
   }
 
   @media screen and (max-width:768px){
     .comments__box{
+      margin-top:calc(70px - 47px);
+      max-width: 382px;
+     
+      margin-left: auto;
+      margin-right: auto;
+
+      flex-direction: column;
+      justify-content: start;
+      /*
       grid-template-columns: 1fr;
       grid-template-rows: repeat(3,1fr);
-      row-gap: 45px;
-
-    }
-    
+      row-gap: 45px;*/
+    } 
   }
+
+  /*
+  
   

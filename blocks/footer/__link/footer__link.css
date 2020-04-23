@@ -10,3 +10,7 @@
 
     margin-right: 2em;
   }
+
+  .footer__link:hover{
+    opacity: 80%;
+  }

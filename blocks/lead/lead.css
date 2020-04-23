@@ -6,36 +6,14 @@
 .lead{  
     max-width: 984px;
     width:90%;
-    padding-top:34px;
+    padding-top:50px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@media screen and (max-width:1024px) and (min-width:769px){
-    .lead{
-        padding-top:50px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-}
-@media screen and (max-width:768px) and (min-width:426px){
-    .lead{
-        padding-top:50px;
-        margin-left: auto;
-        margin-right: auto;
-        
-        width:100%;
-    }
-    
-}
-@media screen and (max-width:425px){
+@media screen and (max-width:768px){
     .lead{
         width:100%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top:50px;
-        
     }
     
 }
