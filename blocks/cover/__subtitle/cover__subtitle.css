@@ -1,8 +1,8 @@
 .cover__subtitle{
+    max-width:382px;
     width:90%;
     position: absolute;
     bottom:5%;
     left:50%;
     transform: translate(-50%, -50%);
-  
   }
