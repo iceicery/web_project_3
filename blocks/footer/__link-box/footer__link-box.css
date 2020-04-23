@@ -1,7 +1,7 @@
 .footer__link-box{
     width:33%;
     display:flex;
-    justify-content: space-between;
+    justify-content: start;
       
   
     list-style: none;
