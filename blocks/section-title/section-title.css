@@ -1,6 +1,6 @@
 .section-title{
     max-width: 640px;
-    width: 85%;
+    width: 90%;
     margin-left: auto;
     margin-right:auto;
     font-style: normal;
@@ -24,6 +24,7 @@
   @media screen and (max-width:425px){
     .section-title{
       font-size: 32px;
+      line-height: 35px;
       margin-bottom:31px;
     }
   }
